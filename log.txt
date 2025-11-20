@@ -1,4 +1,6 @@
-9192b20 (HEAD -> main) Task 1.1 fixed checkstyle errors
+c16206f (HEAD -> main) Task 2.1 variable refactoring
+4d6d9c2 Task 1.2 added log to txt file
+9192b20 Task 1.1 fixed checkstyle errors
 2b4f164 (origin/main, origin/HEAD) fixed tests for the not-for-credit tasks; parameter ordering and ensuring consistent line endings.
 ff5004e adding shortcut keys for Inline Variable (Re: Piazza question)
 b545fe2 clarifying extracted method names in README.md
