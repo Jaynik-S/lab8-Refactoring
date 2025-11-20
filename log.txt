@@ -1,6 +1,7 @@
-aec9244 (HEAD -> main) Task 2.3 remove variable
+c1f3d77 (HEAD -> main) Task 2.4 refactor loop
+aec9244 (origin/main, origin/HEAD) Task 2.3 remove variable
 3f15197 Task 2.2 extracting method
-c0f7859 (origin/main, origin/HEAD) Task 2.1 variable refactoring
+c0f7859 Task 2.1 variable refactoring
 4d6d9c2 Task 1.2 added log to txt file
 9192b20 Task 1.1 fixed checkstyle errors
 2b4f164 fixed tests for the not-for-credit tasks; parameter ordering and ensuring consistent line endings.
