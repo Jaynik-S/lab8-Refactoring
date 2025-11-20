@@ -35,7 +35,11 @@ public class StatementPrinter {
         return result.toString();
     }
 
-    private int getTotalAmount() {
+    /**
+     * Calculates the total amount for the invoice.
+     * @return the total amount
+     */
+    public int getTotalAmount() {
         int totalAmount = 0;
         for (Performance performance : getInvoice().getPerformances()) {
             totalAmount += getAmount(performance);
@@ -43,7 +47,11 @@ public class StatementPrinter {
         return totalAmount;
     }
 
-    private int getTotalVolumeCredits() {
+    /**
+     * Calculates the total volume credits for the invoice.
+     * @return the total volume credits
+     */
+    public int getTotalVolumeCredits() {
         int volumeCredits = 0;
         for (Performance performance : getInvoice().getPerformances()) {
             volumeCredits += getVolumeCredits(performance);
